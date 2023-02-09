@@ -1,0 +1,58 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 2, 2023, 8:03:23 AM
+    Author     : shefa
+*/
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #014f86;
+    text-align: center;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    width: 300px;
+    height: 30px;
+    margin: 3px;
+    align-self: flex-start;
+}
+button{
+    margin: 10px 10% ;
+    height: 40px;
+    width: 80%;
+    border:1px solid;
+    background-color: #cecdcd;
+    font-size: 20px;
+    font-weight: 500;
+}
+button:hover{
+    background-color: #E0E0E0;
+    border:0.5px solid;
+}
+select,option{
+    height: 30px;
+     margin: 3px;
+}
+td,option,label,.confirmDeletMsg{
+    font-size: 18px;
+    font-weight: 500;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.formContainer{
+    border: 2px #014f86 solid;
+    padding: 20px;
+    border-radius: 20px
+}
+.error{
+    color: red;
+}

@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 10, 2022, 9:56:50 PM
+    Author     : shefa
+*/
+header{
+    height: 50px;
+    background-color:#014f86;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:5px 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Search{
+    width: 500px;
+    height: 40px;
+    margin: 5px;
+    flex-grow: 8;
+}
+ button{
+    height: 40px;
+    border:1px solid;
+    background-color: #cecdcd;
+   font-size: 18px;
+    font-weight: 500;
+}
+button:hover{
+    background-color: #E0E0E0;
+    border:0.5px solid;
+}
+form{
+   display: flex;
+   flex-direction: row; 
+   align-items: center;
+}
+table {
+  border: 1px solid rgb(233, 233, 233);
+  width: 100%;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+td,
+th {
+  border: 1px solid rgb(233, 233, 233);
+  text-align: left;
+  padding: 8px;
+}
+th{
+    height: 30px;
+}
+tr:nth-child(even) {
+  background-color: #cecdcd;
+}
+
+tr:hover td {
+  background-color: #a9d6e5;
+}
+.delet{
+    color: #ba181b;
+}
+.edit{
+    color: #014f86;
+}
+
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  
+}
